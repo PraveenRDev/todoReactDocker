@@ -1,0 +1,98 @@
+.todoForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #009688;
+	padding: 2em;
+	position: relative;
+}
+
+.formGroup {
+	padding-top: 1em;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 1em;
+}
+
+.inputBox {
+	width: 35em;
+	padding: 1em;
+	margin-right: 2em;
+	font-weight: 300;
+	outline: none;
+	border: none;
+}
+
+.submitBtn {
+	padding: 1em;
+	font-weight: 700;
+	background-color: #fff;
+	outline: none;
+	border: none;
+}
+
+.submitBtn:hover {
+	cursor: pointer;
+	background-color: #a7ffeb;
+}
+
+.submitBtn:active {
+	color: #fff;
+}
+
+.error {
+	position: absolute;
+	bottom: 1em;
+	color: #fff;
+	letter-spacing: 0.12em;
+}
+
+.todoItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.2em;
+}
+
+.description {
+	margin-right: 0.5em;
+}
+
+.btn_act {
+	padding: 0.5em 1.5em;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+
+.btn_act:hover {
+	cursor: pointer;
+	color: #000;
+}
+
+.description {
+	font-weight: 300;
+	width: 25em;
+}
+
+.task-done {
+	text-decoration: line-through;
+}
+
+.done {
+	background-color: #1de9b6;
+	margin-right: 1em;
+}
+
+.delete {
+	background-color: #ff5252;
+}
+
+.btn_act:disabled {
+	background: #dddddd;
+}
+.btn_act:disabled:hover {
+	cursor: not-allowed;
+	color: #fff;
+}
